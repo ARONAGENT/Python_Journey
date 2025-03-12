@@ -104,14 +104,14 @@ Follow these steps to clone and set up any project from this repository:
 
 ### **Step 2: Create a Virtual Environment**
 ```bash
- python -m venv venv
- source venv/bin/activate  # On macOS/Linux
- venv\Scripts\activate  # On Windows
+ virtualenv <virtualenv name>
+ virtualenv\Scripts\activate  # On Windows
 ```
 
 ### **Step 3: Install Dependencies**
 ```bash
- pip install -r requirements.txt
+ pip install pymysql
+ pip install pymongo .... on so on for your requirment
 ```
 
 ### **Step 4: Run the Application**
